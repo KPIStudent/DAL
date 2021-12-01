@@ -32,5 +32,5 @@ class ParametersDepartment:
     def del_regions(self, new_region, station_id):
         return Station.objects.filter(id=station_id).delete(region=new_region)
 
-
+#test
 
